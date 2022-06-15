@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "littlesun",
+        "name": "LittleSun",
+        "description": "Make a LITTLE SUN at night to make solar machines work at night.",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["ShadniW"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]

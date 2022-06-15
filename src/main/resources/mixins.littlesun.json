@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ml.shadniw.mods.littlesun.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.littlesun.refmap.json",
+  "mixins": [
+    "MixinSolarNeutronActivator"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
