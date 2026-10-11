@@ -2,12 +2,16 @@
   "required": true,
   "minVersion": "0.8",
   "package": "ml.shadniw.mods.littlesun.mixin",
-  "compatibilityLevel": "JAVA_8",
-  "refmap": "mixins.littlesun.refmap.json",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "MixinSolarNeutronActivator"
-  ],
-  "client": [
+    "MixinBlockEntityAccessor",
+    "MixinBlockEntityLifecycle",
+    "MixinDraconicEnergyCore",
+    "MixinMekanismSolarCheck",
+    "MixinMekanismSolarGenerator",
+    "MixinMekanismSolarNeutronActivator",
+    "MixinPowahSolarBlockEntity",
+    "MixinSolarFluxSolarPanelTile"
   ],
   "injectors": {
     "defaultRequire": 1
